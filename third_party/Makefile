@@ -1,10 +1,6 @@
 .PHONY: ipxe
 
 ipxe:
-	rm -rf ipxe
-	git clone git://git.ipxe.org/ipxe.git
-	(cd ipxe && git rev-parse HEAD >COMMIT-ID)
-	rm -rf ipxe/.git
 	(cd ipxe/src && make bin/undionly.kpxe EMBED=../../../pixiecore/boot.ipxe)
 	(cd ipxe/src && make bin-x86_64-efi/ipxe.efi EMBED=../../../pixiecore/boot.ipxe)
 	(cd ipxe/src && make bin-i386-efi/ipxe.efi EMBED=../../../pixiecore/boot.ipxe)
