@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package pixiecore // import "go.universe.tf/netboot/pixiecore"
+package pixiecore // import "github.com/masaeedu/netboot/pixiecore"
 
 import (
 	"bytes"
@@ -23,7 +23,7 @@ import (
 	"sync"
 	"text/template"
 
-	"go.universe.tf/netboot/dhcp4"
+	"github.com/masaeedu/netboot/dhcp4"
 )
 
 const (

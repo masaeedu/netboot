@@ -22,7 +22,7 @@ import (
 	"strings"
 	"time"
 
-	"go.universe.tf/netboot/pixiecore"
+	"github.com/masaeedu/netboot/pixiecore"
 )
 
 func v1compatCLI() bool {

@@ -19,7 +19,7 @@ RUN set -x;                                                                     
         musl-dev;                                                               \
                                                                                 \
     # Pixiecore assets                                                          \
-    NAMESPACE=go.universe.tf;                                                   \
+    NAMESPACE=github.com/masaeedu;                                                   \
     REPO=netboot;                                                               \
     PKG=cmd/pixiecore;                                                          \
                                                                                 \

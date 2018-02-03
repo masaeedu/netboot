@@ -75,7 +75,7 @@
 
 [[projects]]
   branch = "master"
-  name = "go.universe.tf/netboot"
+  name = "github.com/masaeedu/netboot"
   packages = ["dhcp4","pixiecore","pixiecore/cli","tftp","third_party/ipxe"]
   revision = "81fbed5acf561320d856017efdd7b593e62d8539"
 

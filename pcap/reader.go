@@ -13,7 +13,7 @@
 // limitations under the License.
 
 // Package pcap implements reading and writing the "classic" libpcap format.
-package pcap // import "go.universe.tf/netboot/pcap"
+package pcap // import "github.com/masaeedu/netboot/pcap"
 
 import (
 	"bufio"

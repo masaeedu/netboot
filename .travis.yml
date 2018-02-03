@@ -1,5 +1,5 @@
 language: go
-go_import_path: go.universe.tf/netboot
+go_import_path: github.com/masaeedu/netboot
 
 os:
 - linux
